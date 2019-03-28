@@ -1,5 +1,6 @@
 apply plugin: 'groovy'
 apply plugin: 'java'
+apply plugin: 'com.github.dcendents.android-maven'
 
 targetCompatibility = JavaVersion.VERSION_1_7
 sourceCompatibility = JavaVersion.VERSION_1_7
@@ -31,3 +32,6 @@ allprojects {
         maven { url "https://jitpack.io" }
     }
 }
+
+group = 'com.github.chaoliu'
+version = '0.0.1'

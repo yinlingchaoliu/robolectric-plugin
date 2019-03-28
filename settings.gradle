@@ -1,1 +1,2 @@
 include ':robolectric'
+rootProject.name = 'robolectric-plugin'
